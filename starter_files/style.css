@@ -1,0 +1,16 @@
+@import url(./styles/header.css);
+:root {
+    --d-green: #39492B;
+    --l-green: #747349;
+    --white: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
