@@ -1,0 +1,29 @@
+.home__content {
+     background: linear-gradient(to right, var(--d-green), var(--l-green));
+
+}
+.home__content.grid {
+    border: thin solid rgb(237, 14, 14);
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "group data";
+}
+.home__group {
+    grid-area: "home";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: thin solid white;
+}
+.home__group>* {
+    border: thin solid white;
+
+}
+.home__data {
+    grid-area: "data";
+    border: thin solid white;
+
+}
