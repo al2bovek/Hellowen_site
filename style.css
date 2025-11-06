@@ -1,4 +1,6 @@
 @import url(./assets/styles/header.css);
+@import url(./assets/styles/home.css);
+
 :root {
     --d-green: #39492B;
     --l-green: #747349;
@@ -13,4 +15,6 @@
     text-decoration: none;
     list-style: none;
 }
-
+body {
+    position: relative;
+}
