@@ -1,6 +1,5 @@
  .section.category {
      background: linear-gradient(to right, var(--d-green), var(--l-green));
-
      text-align: center;
  }
 
@@ -16,13 +15,11 @@
 
  .category__data {
      margin-bottom: 4rem;
-
  }
 
  .category__img {
      width: 100%;
      margin-bottom: 2rem;
-
  }
 
  .category__description {

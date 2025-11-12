@@ -1,6 +1,7 @@
 @import url(./assets/styles/header.css);
 @import url(./assets/styles/home.css);
 @import url(./assets/styles/category.css);
+@import url(./assets/styles/about.css);
 
 :root {
     --d-green: #39492B;
