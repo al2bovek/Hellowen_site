@@ -3,12 +3,15 @@
  }
 
  .about__container {
+     margin: 0 auto;
      display: flex;
+     justify-content: space-evenly;
      width: 60%;
      margin: 0 auto;
  }
 
  .about__data {
+     padding-left: 3rem;
      display: flex;
      flex-direction: column;
      justify-content: space-evenly;
@@ -37,5 +40,9 @@
 
      .about__description {
          padding: 1rem 0;
+     }
+
+     .about__img {
+         width: 50%;
      }
  }
