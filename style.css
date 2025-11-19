@@ -4,6 +4,7 @@
 @import url(./assets/styles/about.css);
 @import url(./assets/styles/trick.css);
 @import url(./assets/styles/discount.css);
+@import url(./assets/styles/new.css);
 
 :root {
     --d-green: #39492B;

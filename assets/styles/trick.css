@@ -19,7 +19,7 @@
  }
 
  .trick__content {
-     background: radial-gradient(circle, #677146, #6C7146);
+     background: linear-gradient(to right, var(--l-green), var(--d-green));
      border-radius: 1rem;
      display: flex;
      flex-direction: column;

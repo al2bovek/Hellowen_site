@@ -8,7 +8,7 @@
    flex-direction: row-reverse;
    justify-content: space-evenly;
    width: 60%;
-   background: linear-gradient(to right, var(--d-green), var(--l-green));
+   background: linear-gradient(to right, var(--l-green), var(--d-green));
    border-radius: 2rem;
    margin: 0 auto;
  }
