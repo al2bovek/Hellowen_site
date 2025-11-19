@@ -2,6 +2,7 @@
 @import url(./assets/styles/home.css);
 @import url(./assets/styles/category.css);
 @import url(./assets/styles/about.css);
+@import url(./assets/styles/trick.css);
 
 :root {
     --d-green: #39492B;
@@ -20,6 +21,10 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--white);
+}
+
+.section {
+    background: linear-gradient(to right, var(--d-green), var(--l-green));
 }
 
 .home__buttons .button {

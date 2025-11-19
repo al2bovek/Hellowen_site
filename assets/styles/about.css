@@ -1,7 +1,3 @@
- .section.about {
-     background: linear-gradient(to right, var(--d-green), var(--l-green));
- }
-
  .about__container {
      margin: 0 auto;
      display: flex;
