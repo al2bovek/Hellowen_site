@@ -41,3 +41,13 @@
  .trick__button {
      display: none;
  }
+
+  @media screen and (max-width: 880px) {
+    .trick__container {
+     margin: 0 auto;
+     width: 80%;
+     display: grid;
+     grid: repeat(2, 1fr) / repeat(2, 1fr);
+     gap: 2rem;
+ }
+ }
