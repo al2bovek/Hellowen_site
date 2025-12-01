@@ -1,0 +1,41 @@
+ .newsletter {
+     text-align: center;
+     padding: 3rem 0;
+ }
+
+ .newsletter__container {
+     margin: 0 auto;
+     width: 60%;
+ }
+
+ .newsletter__description {
+     width: 45%;
+     margin: 0 auto;
+     font-size: 1.1rem;
+     line-height: 1.5;
+ }
+
+ .newsletter__form {
+     width: 55%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     padding: 3rem 1rem;
+ }
+
+ .newsletter__input {
+     width: 60%;
+     background: linear-gradient(to right, var(--d-green), var(--l-green));
+     color: white;
+     border: none;
+     border-radius: 0.6rem;
+     padding-left: 1rem;
+ }
+
+ .button {
+     padding: 1rem 2rem;
+     color: white;
+     border-radius: 0.6rem;
+     background-color: #E25D34;
+     border: none;
+ }
