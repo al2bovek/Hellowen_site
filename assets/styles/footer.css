@@ -51,6 +51,10 @@
      bottom: 0;
  }
 
+ .footer__copy {
+     padding: 2rem 0; 
+ }
+
  .footer__img-one,
  .footer__img-two {
      width: 13%;

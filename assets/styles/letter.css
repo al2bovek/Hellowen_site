@@ -16,7 +16,7 @@
  }
 
  .newsletter__form {
-     width: 55%;
+     width: 65%;
      margin: 0 auto;
      display: flex;
      justify-content: space-between;
@@ -24,18 +24,41 @@
  }
 
  .newsletter__input {
-     width: 60%;
+     width: 55%;
      background: linear-gradient(to right, var(--d-green), var(--l-green));
-     color: white;
      border: none;
      border-radius: 0.6rem;
      padding-left: 1rem;
  }
 
- .button {
+ .newsletter__input::placeholder {
+     color: white;
+     opacity: 1;
+ }
+
+ .button.letter {
+     width: 40%;
      padding: 1rem 2rem;
      color: white;
      border-radius: 0.6rem;
      background-color: #E25D34;
      border: none;
+ }
+
+ @media (max-width:800px) {
+     .newsletter__form {
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         gap: 2rem;
+     }
+
+     .newsletter__input {
+         width: 90%;
+         padding: 1.5rem;
+     }
+
+     .button.letter {
+         width: 90%;
+     }
  }
